@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style media="screen">
+  body{
+    background-color: black;
+  }
+  ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    z-index: 10;
+  }
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    color: orange;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+    transition: 1.2s ease;
+  }
+  ul li a:hover{
+    background-color: orange;
+    color: #fff;
+  }
+  ul li.active a{
+    background-color: orange;
+    color: #fff;
+  }
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Alyson</title>
+  </head>
+  <body>
+    <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#" target="_blank">About</a></li>
+      <li><a href="#" target="_blank">Developer</a></li>
+    </ul>
+  </body>
+</html>
